@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: JWT_Practice
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  mail:
+    host: smtp.gmail.com
+    port: Port No
+    username: Your mail
+    password: Add you Email Password
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
+
+
+server:
+  port: 8090
+
+
+
+
